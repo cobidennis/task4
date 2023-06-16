@@ -1,0 +1,13 @@
+ami_id           = "ami-****"
+instance_type = "t2.micro"
+key_name      = "YourKeyName"
+subnet_id_1a  = "subnet-************"
+subnet_id_1b  = "subnet-************"
+instance_count = 1
+vpc_security_group_ids = [ "sg-**************" ]
+default_tags = {
+  "Name"        = "Task4App"
+  "Environment" = "DEV"
+  "Can Destroy" = "Yes"
+  "Owner"       = "Jon Skit"
+}
